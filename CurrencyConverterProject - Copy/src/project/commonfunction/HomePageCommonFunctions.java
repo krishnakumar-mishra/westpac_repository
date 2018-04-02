@@ -24,7 +24,7 @@ public class HomePageCommonFunctions extends WebAction{
 	public static String CurrencyConverterID = "id=ubermenu-item-cta-currency-converter-ps";
 	public static String CurrencyConverterlabel = "xpath=//h1[contains(text(),'Currency converter')]";
 	
-	
+	//Krishna
 	public void AccessLink(String URL) throws Exception{
 		initiateBrowser("Chrome");
 		openURL(URL);

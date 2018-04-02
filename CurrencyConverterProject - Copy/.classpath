@@ -2,17 +2,17 @@
 <classpath>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
-	<classpathentry kind="lib" path="C:/Users/sudhakar/myworkspace/CurrencyConverterProject/lib/cucumber-core-1.1.8.jar"/>
-	<classpathentry kind="lib" path="C:/Users/sudhakar/myworkspace/CurrencyConverterProject/lib/cucumber-html-0.2.3.jar"/>
-	<classpathentry kind="lib" path="C:/Users/sudhakar/myworkspace/CurrencyConverterProject/lib/cucumber-java-1.1.8.jar"/>
-	<classpathentry kind="lib" path="C:/Users/sudhakar/myworkspace/CurrencyConverterProject/lib/cucumber-junit-1.1.8.jar"/>
-	<classpathentry kind="lib" path="C:/Users/sudhakar/myworkspace/CurrencyConverterProject/lib/cucumber-jvm-deps-1.0.3.jar"/>
-	<classpathentry kind="lib" path="C:/Users/sudhakar/myworkspace/CurrencyConverterProject/lib/cucumber-reports-0.0.3.jar"/>
-	<classpathentry kind="lib" path="C:/Users/sudhakar/myworkspace/CurrencyConverterProject/lib/extentreports-2.01.jar"/>
-	<classpathentry kind="lib" path="C:/Users/sudhakar/myworkspace/CurrencyConverterProject/lib/gherkin-2.12.2.jar"/>
-	<classpathentry kind="lib" path="C:/Users/sudhakar/myworkspace/CurrencyConverterProject/lib/gherkin-jvm-deps-1.0.2.jar"/>
-	<classpathentry kind="lib" path="C:/Users/sudhakar/myworkspace/CurrencyConverterProject/lib/junit-4.11.jar"/>
-	<classpathentry kind="lib" path="C:/Users/sudhakar/myworkspace/CurrencyConverterProject/lib/poi-3.10.1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/sudhakar/myworkspace/CurrencyConverterProject/lib/selenium-server-standalone-2.53.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/sudhakar/Desktop/Krishna_automation/CurrencyConverterProject - Copy/lib/cucumber-core-1.1.8.jar"/>
+	<classpathentry kind="lib" path="C:/Users/sudhakar/Desktop/Krishna_automation/CurrencyConverterProject - Copy/lib/cucumber-html-0.2.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/sudhakar/Desktop/Krishna_automation/CurrencyConverterProject - Copy/lib/cucumber-java-1.1.8.jar"/>
+	<classpathentry kind="lib" path="C:/Users/sudhakar/Desktop/Krishna_automation/CurrencyConverterProject - Copy/lib/cucumber-junit-1.1.8.jar"/>
+	<classpathentry kind="lib" path="C:/Users/sudhakar/Desktop/Krishna_automation/CurrencyConverterProject - Copy/lib/cucumber-jvm-deps-1.0.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/sudhakar/Desktop/Krishna_automation/CurrencyConverterProject - Copy/lib/cucumber-reports-0.0.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/sudhakar/Desktop/Krishna_automation/CurrencyConverterProject - Copy/lib/extentreports-2.01.jar"/>
+	<classpathentry kind="lib" path="C:/Users/sudhakar/Desktop/Krishna_automation/CurrencyConverterProject - Copy/lib/gherkin-2.12.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/sudhakar/Desktop/Krishna_automation/CurrencyConverterProject - Copy/lib/gherkin-jvm-deps-1.0.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/sudhakar/Desktop/Krishna_automation/CurrencyConverterProject - Copy/lib/junit-4.11.jar"/>
+	<classpathentry kind="lib" path="C:/Users/sudhakar/Desktop/Krishna_automation/CurrencyConverterProject - Copy/lib/poi-3.10.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/sudhakar/Desktop/Krishna_automation/CurrencyConverterProject - Copy/lib/selenium-server-standalone-2.53.0.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

@@ -16,19 +16,14 @@ public class CurrencyConverterCommonFunctions extends WebAction{
 	
 	
 	public void convertBlankAmount() throws Exception{
-//		unconditionalWait(10);
-//		int noOfFrame = driver.findElements(By.tagName("iframe")).size();
-//		System.out.println(noOfFrame);
-//		driver.switchTo().frame("westpac-iframe");
-//		System.out.println(driver.getPageSource());
-//		System.out.println(driver.findElement(By.id("convert")).isDisplayed());
+
 		WebAction.Click(ConvertButtonID);
 		unconditionalWait(10);
 	}
 	
 	public void verifyErrorMessageForBlankAmpount() throws Exception{
 		
-//		String errorMessage = driver.findElement(By.xpath("//div[@id='errordiv']//li")).getText();
+
 		String errorMessage_actual =	WebAction.getText(ErrorMessage);
 		String errorMessage_expected = "Please enter the amount you want to convert.";
 		if(errorMessage_actual.equals(errorMessage_expected))
@@ -39,8 +34,7 @@ public class CurrencyConverterCommonFunctions extends WebAction{
 	}
 	
 	public void convertAmount(String value,String convertFrom,String convertTo) throws Exception{
-//		unconditionalWait(5);
-//		driver.switchTo().frame("westpac-iframe");
+
 		WebAction.selectFromDropdown(ConvertFromDropDownID, convertFrom);
 		WebAction.type(AmountTextBoxID, value);
 		WebAction.selectFromDropdown(ConvertToDropDownID, convertTo);

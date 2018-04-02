@@ -1,7 +1,7 @@
 Feature: This is Westpac feature file
 
 @Test_Westpac001
-Scenario: Demo Scenario_001_TestCase
+Scenario: Currency_Converter Scenario_001_TestCase
 
 Given Customer access the Westpac application
 When Customer navigates to Currency Converter page
@@ -11,7 +11,7 @@ Then Verify the error message
 
 
 @Test_Westpac001
-Scenario: Demo Scenario_002_TestCase
+Scenario: Currency_Converter Scenario_002_TestCase
 
 Given Customer access the Westpac application
 When Customer navigates to Currency Converter page
@@ -24,7 +24,3 @@ And Verify and get the details of the 'Pound Sterling to New Zealand Dollar' exc
 Then Converts '1' from 'Swiss Franc' to 'Euro'
 And Verify and get the details of the 'Swiss Franc to Euro' exchange rates
 
-#Examples:
-#| value | convert from | convert to |
-#| 1 | New Zealand Dollar | United States Dollar |
-#| 1 | United States Dollar | New Zealand Dollar |

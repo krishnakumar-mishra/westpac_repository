@@ -18,7 +18,7 @@ import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import project.commonfunction.HomePageCommonFunctions;
-//import project.commonfunction.commonFunction;
+
 
 public class HomePageStepDefinitions extends HomePageCommonFunctions{
 public 	HashMap<String, String> testData = new HashMap<String, String>();
@@ -29,12 +29,8 @@ public 	HashMap<String, String> testData = new HashMap<String, String>();
 		ScenarioName = result.getName();
 		TestIdentifier = ScenarioName.substring(0, ScenarioName.lastIndexOf("_"));
 		System.out.println("TestIdentifier : "+TestIdentifier);
-		
 		HTML_Report = result;
 		scenarioResultFlag = true;
-		
-		
-		//HashMap<String, String> testData = new HashMap<String, String>();
 		System.out.println("Initiating Sheet Fetching");
 		
 		testData = getData("DemoSheet","Test002");
@@ -47,9 +43,9 @@ public 	HashMap<String, String> testData = new HashMap<String, String>();
 			new File(reportPath).mkdir();
 			new File(imagePath).mkdir();
 			
-			extent = new ExtentReports(reportPath+"\\MyTest_Execution_Report.html", true);
-			extent.config().documentTitle("MyReport_TitleKK");
-			extent.config().reportHeadline("MyReport_HeadlineKK"+getCurrentTimeStamp().substring(0, 8));
+			extent = new ExtentReports(reportPath+"\\Westpac_NZ_Execution_Report.html", true);
+			extent.config().documentTitle("Westpac_NZ_Report");
+			extent.config().reportHeadline("WestpacNZ_CurrencyConverter"+getCurrentTimeStamp().substring(0, 8));
 			
 			ExtentReportFlag = true;
 			
@@ -67,9 +63,6 @@ public 	HashMap<String, String> testData = new HashMap<String, String>();
 	@Given ("^Customer access the Westpac application$")
 	public void firstMethod() throws Exception{
 		System.out.println("First Method");
-		
-		//GetSheet("DemoSheet");
-//		System.out.println(testData.get("FirstName"));
 		AccessLink(testData.get("URL"));
 		System.out.println("Link accessed");
 		
@@ -81,10 +74,7 @@ public 	HashMap<String, String> testData = new HashMap<String, String>();
 		openCurrencyConverter();
 	}
 	
-//	@And ("^Did not provide any amount to convert and clicks on Convert button$")
-//	public void convertBlankCurrencyAmount() throws Exception{
-//		convertBlankAmount();
-//	}
+
 		
 	@After
 	public void entTestCase(Scenario result) throws URISyntaxException, IOException, Exception{

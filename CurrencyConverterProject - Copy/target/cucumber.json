@@ -1,0 +1,336 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 725262586,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HomePageStepDefinitions.setUp(Scenario)"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Demo Scenario_001_TestCase",
+        "description": "",
+        "id": "this-is-westpac-feature-file;demo-scenario-001-testcase",
+        "after": [
+          {
+            "result": {
+              "duration": 3280070201,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HomePageStepDefinitions.entTestCase(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 49892767486,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Customer access the Westpac application",
+            "match": {
+              "location": "HomePageStepDefinitions.firstMethod()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 25928293529,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Customer navigates to Currency Converter page",
+            "match": {
+              "location": "HomePageStepDefinitions.navigatesCurrencyConverter()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11208621953,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Did not provide any amount to convert and clicks on Convert button",
+            "match": {
+              "location": "CurrencyConverterStepDefinitions.convertBlankCurrencyAmount()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 339050239,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Verify the error message",
+            "match": {
+              "location": "CurrencyConverterStepDefinitions.verifyError()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@Test_Westpac001"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 75693128,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HomePageStepDefinitions.setUp(Scenario)"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Demo Scenario_002_TestCase",
+        "description": "",
+        "id": "this-is-westpac-feature-file;demo-scenario-002-testcase",
+        "after": [
+          {
+            "result": {
+              "duration": 1154728793,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HomePageStepDefinitions.entTestCase(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 31371363473,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Customer access the Westpac application",
+            "match": {
+              "location": "HomePageStepDefinitions.firstMethod()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 25471846051,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Customer navigates to Currency Converter page",
+            "match": {
+              "location": "HomePageStepDefinitions.navigatesCurrencyConverter()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6712553394,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Converts \u00271\u0027 from \u0027New Zealand Dollar\u0027 to \u0027United States Dollar\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 10
+                },
+                {
+                  "val": "New Zealand Dollar",
+                  "offset": 19
+                },
+                {
+                  "val": "United States Dollar",
+                  "offset": 43
+                }
+              ],
+              "location": "CurrencyConverterStepDefinitions.currencyConvertAmount(String,String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3431266793,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Verify and get the details of the \u0027New Zealand Dollar to United States Dollar\u0027 exchange rates",
+            "match": {
+              "arguments": [
+                {
+                  "val": "New Zealand Dollar to United States Dollar",
+                  "offset": 35
+                }
+              ],
+              "location": "CurrencyConverterStepDefinitions.getDetailsOfExchangeRates(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6554421307,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Converts \u00271\u0027 from \u0027United States Dollar\u0027 to \u0027New Zealand Dollar\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 10
+                },
+                {
+                  "val": "United States Dollar",
+                  "offset": 19
+                },
+                {
+                  "val": "New Zealand Dollar",
+                  "offset": 45
+                }
+              ],
+              "location": "CurrencyConverterStepDefinitions.currencyConvertAmount(String,String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3392316108,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Verify and get the details of the \u0027United States Dollar to New Zealand Dollar\u0027 exchange rates",
+            "match": {
+              "arguments": [
+                {
+                  "val": "United States Dollar to New Zealand Dollar",
+                  "offset": 35
+                }
+              ],
+              "location": "CurrencyConverterStepDefinitions.getDetailsOfExchangeRates(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6604338071,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Converts \u00271\u0027 from \u0027Pound Sterling\u0027 to \u0027New Zealand Dollar\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 10
+                },
+                {
+                  "val": "Pound Sterling",
+                  "offset": 19
+                },
+                {
+                  "val": "New Zealand Dollar",
+                  "offset": 39
+                }
+              ],
+              "location": "CurrencyConverterStepDefinitions.currencyConvertAmount(String,String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3378256273,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Verify and get the details of the \u0027Pound Sterling to New Zealand Dollar\u0027 exchange rates",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Pound Sterling to New Zealand Dollar",
+                  "offset": 35
+                }
+              ],
+              "location": "CurrencyConverterStepDefinitions.getDetailsOfExchangeRates(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6542543029,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Converts \u00271\u0027 from \u0027Swiss Franc\u0027 to \u0027Euro\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 10
+                },
+                {
+                  "val": "Swiss Franc",
+                  "offset": 19
+                },
+                {
+                  "val": "Euro",
+                  "offset": 36
+                }
+              ],
+              "location": "CurrencyConverterStepDefinitions.currencyConvertAmount(String,String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3422427260,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Verify and get the details of the \u0027Swiss Franc to Euro\u0027 exchange rates",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Swiss Franc to Euro",
+                  "offset": 35
+                }
+              ],
+              "location": "CurrencyConverterStepDefinitions.getDetailsOfExchangeRates(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 13,
+            "name": "@Test_Westpac001"
+          }
+        ]
+      }
+    ],
+    "name": "This is Westpac feature file",
+    "description": "",
+    "id": "this-is-westpac-feature-file",
+    "keyword": "Feature",
+    "uri": "CurrencyConverter.feature"
+  }
+]

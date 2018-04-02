@@ -1,4 +1,4 @@
-Feature: This is Westpac feature file
+Feature: This is a feature file to test Currency Converter application for Westpac NZ
 
 @Test_Westpac001
 Scenario: Currency_Converter Scenario_001_TestCase

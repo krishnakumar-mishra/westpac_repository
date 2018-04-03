@@ -1,20 +1,20 @@
 $(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("CurrencyConverter.feature");
 formatter.feature({
   "line": 1,
-  "name": "This is Westpac feature file",
+  "name": "This is a feature file to test Currency Converter application for Westpac NZ",
   "description": "",
-  "id": "this-is-westpac-feature-file",
+  "id": "this-is-a-feature-file-to-test-currency-converter-application-for-westpac-nz",
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 1085783958,
+  "duration": 676395135,
   "status": "passed"
 });
 formatter.scenario({
   "line": 4,
   "name": "Currency_Converter Scenario_001_TestCase",
   "description": "",
-  "id": "this-is-westpac-feature-file;currency-converter-scenario-001-testcase",
+  "id": "this-is-a-feature-file-to-test-currency-converter-application-for-westpac-nz;currency-converter-scenario-001-testcase",
   "type": "scenario",
   "keyword": "Scenario",
   "tags": [
@@ -48,43 +48,43 @@ formatter.match({
   "location": "HomePageStepDefinitions.firstMethod()"
 });
 formatter.result({
-  "duration": 47632381382,
+  "duration": 39364866834,
   "status": "passed"
 });
 formatter.match({
   "location": "HomePageStepDefinitions.navigatesCurrencyConverter()"
 });
 formatter.result({
-  "duration": 25947464874,
+  "duration": 24052938266,
   "status": "passed"
 });
 formatter.match({
   "location": "CurrencyConverterStepDefinitions.convertBlankCurrencyAmount()"
 });
 formatter.result({
-  "duration": 11282132294,
+  "duration": 11204656232,
   "status": "passed"
 });
 formatter.match({
   "location": "CurrencyConverterStepDefinitions.verifyError()"
 });
 formatter.result({
-  "duration": 475239082,
+  "duration": 344366603,
   "status": "passed"
 });
 formatter.after({
-  "duration": 6380684148,
+  "duration": 1948273207,
   "status": "passed"
 });
 formatter.before({
-  "duration": 75268230,
+  "duration": 8484426,
   "status": "passed"
 });
 formatter.scenario({
   "line": 14,
   "name": "Currency_Converter Scenario_002_TestCase",
   "description": "",
-  "id": "this-is-westpac-feature-file;currency-converter-scenario-002-testcase",
+  "id": "this-is-a-feature-file-to-test-currency-converter-application-for-westpac-nz;currency-converter-scenario-002-testcase",
   "type": "scenario",
   "keyword": "Scenario",
   "tags": [
@@ -148,14 +148,14 @@ formatter.match({
   "location": "HomePageStepDefinitions.firstMethod()"
 });
 formatter.result({
-  "duration": 27762936111,
+  "duration": 22230935495,
   "status": "passed"
 });
 formatter.match({
   "location": "HomePageStepDefinitions.navigatesCurrencyConverter()"
 });
 formatter.result({
-  "duration": 23775273361,
+  "duration": 22639966336,
   "status": "passed"
 });
 formatter.match({
@@ -176,7 +176,7 @@ formatter.match({
   "location": "CurrencyConverterStepDefinitions.currencyConvertAmount(String,String,String)"
 });
 formatter.result({
-  "duration": 7929831375,
+  "duration": 6798470365,
   "status": "passed"
 });
 formatter.match({
@@ -189,7 +189,7 @@ formatter.match({
   "location": "CurrencyConverterStepDefinitions.getDetailsOfExchangeRates(String)"
 });
 formatter.result({
-  "duration": 3379017807,
+  "duration": 3382879253,
   "status": "passed"
 });
 formatter.match({
@@ -210,7 +210,7 @@ formatter.match({
   "location": "CurrencyConverterStepDefinitions.currencyConvertAmount(String,String,String)"
 });
 formatter.result({
-  "duration": 6653506850,
+  "duration": 6535285267,
   "status": "passed"
 });
 formatter.match({
@@ -223,7 +223,7 @@ formatter.match({
   "location": "CurrencyConverterStepDefinitions.getDetailsOfExchangeRates(String)"
 });
 formatter.result({
-  "duration": 3380449325,
+  "duration": 3383414173,
   "status": "passed"
 });
 formatter.match({
@@ -244,7 +244,7 @@ formatter.match({
   "location": "CurrencyConverterStepDefinitions.currencyConvertAmount(String,String,String)"
 });
 formatter.result({
-  "duration": 6522007082,
+  "duration": 6517750295,
   "status": "passed"
 });
 formatter.match({
@@ -257,7 +257,7 @@ formatter.match({
   "location": "CurrencyConverterStepDefinitions.getDetailsOfExchangeRates(String)"
 });
 formatter.result({
-  "duration": 3383927336,
+  "duration": 3403314210,
   "status": "passed"
 });
 formatter.match({
@@ -278,7 +278,7 @@ formatter.match({
   "location": "CurrencyConverterStepDefinitions.currencyConvertAmount(String,String,String)"
 });
 formatter.result({
-  "duration": 6638559039,
+  "duration": 6595442706,
   "status": "passed"
 });
 formatter.match({
@@ -291,11 +291,11 @@ formatter.match({
   "location": "CurrencyConverterStepDefinitions.getDetailsOfExchangeRates(String)"
 });
 formatter.result({
-  "duration": 3370687741,
+  "duration": 3366139067,
   "status": "passed"
 });
 formatter.after({
-  "duration": 2047348899,
+  "duration": 1136453635,
   "status": "passed"
 });
 });

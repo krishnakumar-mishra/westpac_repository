@@ -128,6 +128,9 @@ public class WebAction {
 		return outputFolderName;
 	}
 	
+	/*
+	 * This method is used to initiate the browsers profile
+	 */
 	
 	public static void initiateBrowser(String BrowserName) throws Exception{
 		if(BrowserName.equals("IE")){
@@ -187,6 +190,10 @@ public class WebAction {
 	}
 	
 	
+	/*
+	 * This method will get the URL of the application from the testdata and launch the URL in browser
+	 * Here to deal with the excel sheet fetching, poi-3.10.1 jar is used
+	 */
 	public static void openURL(String URL) throws Exception{
 		driver.get(URL);
 		unconditionalWait(5);
@@ -448,6 +455,9 @@ public class WebAction {
 		
 	}
 	
+	/*
+	 * This method will maximize the window size 
+	 */
 	public static void maximizeWindow() throws Exception{
 		driver.manage().window().maximize();
 	}

@@ -33,7 +33,7 @@ public 	HashMap<String, String> testData = new HashMap<String, String>();
 		scenarioResultFlag = true;
 		System.out.println("Initiating Sheet Fetching");
 		
-		testData = getData("DemoSheet","Test002");
+		testData = getData("CurrencyConverter","Test002");
 		System.out.println(testData);
 		
 		if(!ExtentReportFlag)
@@ -58,17 +58,21 @@ public 	HashMap<String, String> testData = new HashMap<String, String>();
 	}
 	
 	
-	
+	/*
+	 * This steps is used to access the Westpac NZ web-application
+	 */
 	
 	@Given ("^Customer access the Westpac application$")
-	public void firstMethod() throws Exception{
-		System.out.println("First Method");
+	public void openApplication() throws Exception{
+		
 		AccessLink(testData.get("URL"));
 		System.out.println("Link accessed");
 		
 		
 	}
-	
+	/*
+	 * This step will help in navigating the driver to currency converter page
+	 */
 	@When ("^Customer navigates to Currency Converter page$")
 	public void navigatesCurrencyConverter() throws Exception{
 		openCurrencyConverter();

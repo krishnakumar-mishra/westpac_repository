@@ -21,11 +21,17 @@ public class CurrencyConverterCommonFunctions extends WebAction{
 		unconditionalWait(10);
 	}
 	
+	
+	/*
+	 * This method will get the error message from the application 
+	 * and compares with the expected message from the test data sheet
+	 */
 	public void verifyErrorMessageForBlankAmpount() throws Exception{
 		
 
 		String errorMessage_actual =	WebAction.getText(ErrorMessage);
-		String errorMessage_expected = "Please enter the amount you want to convert.";
+//		String errorMessage_expected = "Please enter the amount you want to convert.";
+		String errorMessage_expected = testData.get("Error Message");
 		if(errorMessage_actual.equals(errorMessage_expected))
 			WebAction.reportResult("Error message is valid", true, true);
 		else
@@ -33,6 +39,10 @@ public class CurrencyConverterCommonFunctions extends WebAction{
 		
 	}
 	
+	
+	/*
+	 * This method will convert one currency to another for the provided amount
+	 */
 	public void convertAmount(String value,String convertFrom,String convertTo) throws Exception{
 
 		WebAction.selectFromDropdown(ConvertFromDropDownID, convertFrom);
@@ -42,8 +52,15 @@ public class CurrencyConverterCommonFunctions extends WebAction{
 		unconditionalWait(5);
 	}
 	
+	
+	/*
+	 * This method will verify and embed the screen in report, if the currency conversion is successful
+	 * by checking the exchange rate details is displayed and print the same details in console as well
+	 */
 	public void verifyAndGetDetailsOfExchangeRates(String conversion) throws Exception{
 		unconditionalWait(3);
+		
+		//This is a checkpoint to check if the conversion is done.
         if(WebAction.isDisplayed(ExchangeRatesPanelXpath)){
         	reportResult("Exchange Rates for "+conversion+" currency details", true, true);
         	System.out.println("Exchange Rate details for "+conversion+" are: "+getText(ExchangeRatesPanelXpath));

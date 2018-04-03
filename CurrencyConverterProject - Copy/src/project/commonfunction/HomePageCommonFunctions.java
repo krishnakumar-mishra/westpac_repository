@@ -27,16 +27,17 @@ public class HomePageCommonFunctions extends WebAction{
 	 * This method is used for Browser setup and URL launch
 	 */
 	
-	public void AccessLink(String URL) throws Exception{
+	public void AccessLink(String URL ) throws Exception{
 		initiateBrowser("Chrome");
 		openURL(URL);
 		maximizeWindow();
 		System.out.println(driver.getCurrentUrl());
+//		System.out.println("testdata"+testData.get("URL") );
 		
 		/*
 		 * This is a checkpoint to verify and embed in the report that the correct URL is being launched
 		 */
-		if(driver.getCurrentUrl().equals(testData.get(URL)))
+		if(driver.getCurrentUrl().equals(testData.get("URL")))
 			reportResult("Link Accessed", true, true);
 		else
 			reportResult("Link Accessed", false, true);

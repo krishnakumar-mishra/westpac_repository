@@ -30,8 +30,13 @@ public class CurrencyConverterCommonFunctions extends WebAction{
 		
 
 		String errorMessage_actual =	WebAction.getText(ErrorMessage);
-//		String errorMessage_expected = "Please enter the amount you want to convert.";
 		String errorMessage_expected = testData.get("Error Message");
+		
+		System.out.println("actual "+errorMessage_actual);
+		System.out.println("expected "+errorMessage_expected);
+		
+		//This is a checkpoint to validate the error message displayed on screen with the expected
+		//message i.e., being fetched from test data
 		if(errorMessage_actual.equals(errorMessage_expected))
 			WebAction.reportResult("Error message is valid", true, true);
 		else

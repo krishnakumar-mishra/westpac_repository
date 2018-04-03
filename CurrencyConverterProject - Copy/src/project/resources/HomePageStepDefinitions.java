@@ -21,7 +21,7 @@ import project.commonfunction.HomePageCommonFunctions;
 
 
 public class HomePageStepDefinitions extends HomePageCommonFunctions{
-public 	HashMap<String, String> testData = new HashMap<String, String>();
+//public static	HashMap<String, String> testData = new HashMap<String, String>();
 
 	
 	@Before

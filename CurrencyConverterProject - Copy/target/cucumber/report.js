@@ -7,7 +7,7 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 676395135,
+  "duration": 450762868,
   "status": "passed"
 });
 formatter.scenario({
@@ -45,39 +45,39 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "HomePageStepDefinitions.firstMethod()"
+  "location": "HomePageStepDefinitions.openApplication()"
 });
 formatter.result({
-  "duration": 39364866834,
+  "duration": 20556106943,
   "status": "passed"
 });
 formatter.match({
   "location": "HomePageStepDefinitions.navigatesCurrencyConverter()"
 });
 formatter.result({
-  "duration": 24052938266,
+  "duration": 22783623134,
   "status": "passed"
 });
 formatter.match({
   "location": "CurrencyConverterStepDefinitions.convertBlankCurrencyAmount()"
 });
 formatter.result({
-  "duration": 11204656232,
+  "duration": 11171731718,
   "status": "passed"
 });
 formatter.match({
   "location": "CurrencyConverterStepDefinitions.verifyError()"
 });
 formatter.result({
-  "duration": 344366603,
+  "duration": 363792067,
   "status": "passed"
 });
 formatter.after({
-  "duration": 1948273207,
+  "duration": 1336639606,
   "status": "passed"
 });
 formatter.before({
-  "duration": 8484426,
+  "duration": 11177093,
   "status": "passed"
 });
 formatter.scenario({
@@ -145,17 +145,17 @@ formatter.step({
   "keyword": "And "
 });
 formatter.match({
-  "location": "HomePageStepDefinitions.firstMethod()"
+  "location": "HomePageStepDefinitions.openApplication()"
 });
 formatter.result({
-  "duration": 22230935495,
+  "duration": 28916384872,
   "status": "passed"
 });
 formatter.match({
   "location": "HomePageStepDefinitions.navigatesCurrencyConverter()"
 });
 formatter.result({
-  "duration": 22639966336,
+  "duration": 22737191358,
   "status": "passed"
 });
 formatter.match({
@@ -176,7 +176,7 @@ formatter.match({
   "location": "CurrencyConverterStepDefinitions.currencyConvertAmount(String,String,String)"
 });
 formatter.result({
-  "duration": 6798470365,
+  "duration": 6679430184,
   "status": "passed"
 });
 formatter.match({
@@ -189,7 +189,7 @@ formatter.match({
   "location": "CurrencyConverterStepDefinitions.getDetailsOfExchangeRates(String)"
 });
 formatter.result({
-  "duration": 3382879253,
+  "duration": 3458048135,
   "status": "passed"
 });
 formatter.match({
@@ -210,7 +210,7 @@ formatter.match({
   "location": "CurrencyConverterStepDefinitions.currencyConvertAmount(String,String,String)"
 });
 formatter.result({
-  "duration": 6535285267,
+  "duration": 6564308103,
   "status": "passed"
 });
 formatter.match({
@@ -223,7 +223,7 @@ formatter.match({
   "location": "CurrencyConverterStepDefinitions.getDetailsOfExchangeRates(String)"
 });
 formatter.result({
-  "duration": 3383414173,
+  "duration": 3386279673,
   "status": "passed"
 });
 formatter.match({
@@ -244,7 +244,7 @@ formatter.match({
   "location": "CurrencyConverterStepDefinitions.currencyConvertAmount(String,String,String)"
 });
 formatter.result({
-  "duration": 6517750295,
+  "duration": 6519949094,
   "status": "passed"
 });
 formatter.match({
@@ -257,7 +257,7 @@ formatter.match({
   "location": "CurrencyConverterStepDefinitions.getDetailsOfExchangeRates(String)"
 });
 formatter.result({
-  "duration": 3403314210,
+  "duration": 3386019397,
   "status": "passed"
 });
 formatter.match({
@@ -278,7 +278,7 @@ formatter.match({
   "location": "CurrencyConverterStepDefinitions.currencyConvertAmount(String,String,String)"
 });
 formatter.result({
-  "duration": 6595442706,
+  "duration": 6528445015,
   "status": "passed"
 });
 formatter.match({
@@ -291,11 +291,11 @@ formatter.match({
   "location": "CurrencyConverterStepDefinitions.getDetailsOfExchangeRates(String)"
 });
 formatter.result({
-  "duration": 3366139067,
+  "duration": 3373270796,
   "status": "passed"
 });
 formatter.after({
-  "duration": 1136453635,
+  "duration": 1134595166,
   "status": "passed"
 });
 });

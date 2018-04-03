@@ -12,6 +12,10 @@ import com.relevantcodes.extentreports.LogStatus;
 
 import project.action.WebAction;
 
+
+/*
+ * Author - Krishna   
+ */
 public class HomePageCommonFunctions extends WebAction{
 
 	public static String TestIdentifier = "";
@@ -27,6 +31,7 @@ public class HomePageCommonFunctions extends WebAction{
 	 * This method is used for Browser setup and URL launch
 	 */
 	
+
 	public void AccessLink(String URL ) throws Exception{
 		initiateBrowser("Chrome");
 		openURL(URL);
